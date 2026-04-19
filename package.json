@@ -1,0 +1,11 @@
+{
+    "name": "devops-batch-215-node-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "",
+    "license": "ISC"
+}
