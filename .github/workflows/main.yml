@@ -19,8 +19,8 @@ jobs:
             mkdir pipelne 
             touch pipeline/output.txt
             touch pipeline/output2.txt
-            echo "this is from output1" > output.txt
-            echo "this is from output2" > output2.txt
+            echo "this is from output1" > pipeline/output.txt
+            echo "this is from output2" > pipeline/output2.txt
             pwd 
             ls -la 
             cat pipeline/output2.txt
