@@ -16,7 +16,7 @@ jobs:
       - name: Echo Hello World
         run: |
             echo "hello pipline"
-            mkdir pipilne 
+            mkdir pipelne 
             touch pipeline/output.txt
             touch pipeline/output2.txt
             echo "this is from output1" > output.txt
