@@ -14,4 +14,16 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Echo Hello World
-        run: echo "hello world"
+        run: |
+            echo "hello pipline"
+            mkdir pipilne 
+            touch pipeline/output.txt
+            touch pipeline/output2.txt
+            echo "this is from output1" > output.txt
+            echo "this is from output2" > output2.txt
+            pwd 
+            ls -la 
+            cat pipeline/output2.txt
+            
+            
+      
