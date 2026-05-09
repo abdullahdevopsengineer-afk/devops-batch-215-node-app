@@ -1,14 +1,17 @@
-name: Hello world pipeline
-on: 
+name: Hello World Pipeline
+
+on:
   push:
-      branches:
-        - main
+    branches:
+      - main
+
 jobs:
- hello world:
+  hello-world:
     runs-on: ubuntu-latest
 
     steps:
-      - name: checkout pipeline
-      - uses: actions/checkoutcode@v4 
-      - name : Echo hello world
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Echo Hello World
         run: echo "hello world"
