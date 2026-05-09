@@ -1,0 +1,14 @@
+name: Hello world pipeline
+on: 
+  push:
+      branches:
+        - main
+jobs:
+ hello world:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout pipeline
+      - uses: actions/checkoutcode@v4 
+      - name : Echo hello world
+        run: echo "hello world"
